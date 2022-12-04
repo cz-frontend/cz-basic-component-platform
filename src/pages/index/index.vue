@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-button type="primary">111</el-button>
+    <el-button type="primary" icon="Search">111</el-button>
   </div>
 </template>
 
