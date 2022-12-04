@@ -1,7 +1,9 @@
 <template>
   <div>
-    <el-button type="primary" icon="Search">111</el-button>
+    <AppLayout />
   </div>
 </template>
 
-<script setup lang="ts" name="Index"></script>
+<script setup lang="ts" name="Index">
+import AppLayout from "@/components/AppLayout/index.vue";
+</script>
