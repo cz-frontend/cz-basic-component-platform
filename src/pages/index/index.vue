@@ -1,9 +1,3 @@
-<template>
-  <div>
-    <AppLayout />
-  </div>
-</template>
+<template>首页</template>
 
-<script setup lang="ts" name="Index">
-import AppLayout from "@/components/AppLayout/index.vue";
-</script>
+<script setup lang="ts" name="Index"></script>

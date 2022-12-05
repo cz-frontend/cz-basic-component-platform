@@ -5,7 +5,7 @@ import AppLayout from "@/components/AppLayout/index.vue";
 
 export const routes = [
   {
-    path: "/appLayout",
+    path: "/",
     name: "AppLayout",
     component: AppLayout,
     redirect: "/index",

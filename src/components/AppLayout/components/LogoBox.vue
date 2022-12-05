@@ -9,7 +9,7 @@
 
 <style lang="scss" scoped>
 .logo-box {
-  height: 38px;
+  height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
