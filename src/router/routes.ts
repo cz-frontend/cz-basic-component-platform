@@ -16,6 +16,12 @@ export const routes = [
         meta: { title: "首页", keepalive: false },
         component: () => import("@/pages/index/index.vue"),
       },
+      {
+        path: "/table",
+        name: "Table",
+        meta: { title: "自定义表哥", keepalive: false },
+        component: () => import("@/pages/example/table/index.vue"),
+      },
     ],
   },
 ];

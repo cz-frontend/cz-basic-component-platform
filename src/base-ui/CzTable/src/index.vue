@@ -16,7 +16,7 @@
         :label="item.label"
         :prop="item.prop"
         :width="item.width"
-        :align="item.align"
+        :align="item.align || 'left'"
       >
         <template #default="scope">
           <template v-if="scope.row.rowEdit">
@@ -84,6 +84,7 @@
       v-model:currentPage="props.currentPage"
       :page-sizes="pageSizes"
       :page-size="pageSize"
+      background
       :total="total"
       @size-change="handleSizeChange"
       @current-change="handleCurrentChange"
@@ -152,7 +153,7 @@ let props = defineProps({
   // 显示分页的对齐方式
   paginationAlign: {
     type: String as PropType<"left" | "center" | "right">,
-    default: "left",
+    default: "right",
   },
   // 当前是第几页
   currentPage: {
@@ -167,7 +168,7 @@ let props = defineProps({
   // 显示分页数据多少条的选项
   pageSizes: {
     type: Array,
-    default: () => [10, 20, 30, 40],
+    default: () => [10, 20, 50, 100],
   },
   // 数据总条数
   total: {

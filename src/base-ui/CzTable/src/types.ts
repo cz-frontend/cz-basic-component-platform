@@ -5,6 +5,7 @@ export interface TableOptions {
   label: string;
   // 对应列的宽度
   width?: string | number;
+
   // 对齐方式
   align?: "left" | "center" | "right";
   // 自定义列模板的插槽名

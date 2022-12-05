@@ -4,10 +4,9 @@ import { createPinia } from "pinia";
 import App from "./App.vue";
 import router from "./router";
 
+import "./styles/index.scss";
 import "normalize.css";
-// 全局注册自定义组件
 import CzUI from "./base-ui/index";
-// 全局注册自定义方法
 import { globalRegister } from "./global";
 
 const app = createApp(App);
