@@ -1,7 +1,6 @@
 <template>
   <div class="side-bar">
-    <h5 class="mb-2">Custom colors</h5>
-    <el-menu
+    <!-- <el-menu
       background-color="#041527"
       default-active="1"
       text-color="#fff"
@@ -37,7 +36,7 @@
         <el-icon><setting /></el-icon>
         <span>Navigator Four</span>
       </el-menu-item>
-    </el-menu>
+    </el-menu> -->
   </div>
 </template>
 
