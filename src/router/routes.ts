@@ -17,9 +17,15 @@ export const routes = [
         component: () => import("@/pages/index/index.vue"),
       },
       {
+        path: "/form",
+        name: "Form",
+        meta: { title: "自定义表单", keepalive: false },
+        component: () => import("@/pages/example/form/index.vue"),
+      },
+      {
         path: "/table",
         name: "Table",
-        meta: { title: "自定义表哥", keepalive: false },
+        meta: { title: "自定义表格", keepalive: false },
         component: () => import("@/pages/example/table/index.vue"),
       },
     ],

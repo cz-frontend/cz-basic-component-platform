@@ -1,7 +1,8 @@
 import type { App } from "vue";
+import CzForm from "./CzForm";
 import CzTable from "./CzTable";
 
-const components = [CzTable];
+const components = [CzForm, CzTable];
 
 export default {
   install(app: App) {
